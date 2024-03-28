@@ -13,11 +13,13 @@ export default {
       'white': '#fff',
       'offwhitegb': '#f2f2f2',
 
-
-
-
+    },
+    fontFamily: {
+      'shoulders': '"big shoulders display',
+      'Lexend': '"Lexend Deca',
 
     }
+
 
   },
   plugins: [],

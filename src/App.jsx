@@ -8,24 +8,24 @@ export default function app(){
     <main className="min-h-svh bg-offwhitebg py-20 px-6">
       <section>
 
-        <div className="bg-orange">
-          <img src={iconSedans} alt="icone dos carros sedan" />
-          <h2 className="font-shoulders">Sedans</h2>
-          <p className="font-Lexend">escolha o sedan pelo seu preço acessivel e exelente economia de cobustivel. ideal para dirigir na cidade ou na sua proxima viagem</p>
+        <div className="bg-orange p-12 rounded-t-lg">
+          <img src={iconSedans} alt="icone dos carros sedan" className="mb-7" />
+          <h2 className="font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg">Sedans</h2>
+          <p className="font-Lexend mb-7">escolha o sedan pelo seu preço acessivel e exelente economia de cobustivel. ideal para dirigir na cidade ou na sua proxima viagem</p>
           <a className="font-Lexend" href="https://www.webmotors.com.br/catalogo/carroceria/sedan/" target="_blank">ver mais</a>
         </div>
 
-        <div className="bg-green"> 
-          <img src={iconSuvs} alt="icone dos carros suvs" />
-          <h2 className="font-shoulders">Suvs</h2>
-          <p className="font-Lexend">escolha o suvs pelo seu preço acessivel e exelente economia de cobustivel. ideal para dirigir na cidade ou na sua proxima viagem</p>
+        <div className="bg-green p-12"> 
+          <img src={iconSuvs} alt="icone dos carros suvs" className="mb-7"/>
+          <h2 className="font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg">Suvs</h2>
+          <p className="font-Lexend mb-7">escolha o suvs pelo seu preço acessivel e exelente economia de cobustivel. ideal para dirigir na cidade ou na sua proxima viagem</p>
           <a className="font-Lexend" href="https://www.webmotors.com.br/suvs" target="_blank">ver mais</a>
         </div>
 
-        <div className="bg-dark-green"> 
-          <img src={iconLuxury} alt="icone dos carros Luxury" />
-          <h2 className="font-shoulders">Luxury</h2>
-          <p className="font-Lexend">escolha o Luxury pelo seu preço acessivel e exelente economia de cobustivel. ideal para dirigir na cidade ou na sua proxima viagem</p>
+        <div className="bg-dark-green p-12 rounded-b-lg"> 
+          <img src={iconLuxury} alt="icone dos carros Luxury" className="mb-7" />
+          <h2 className="font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg">Luxury</h2>
+          <p className="font-Lexend mb-7">escolha o Luxury pelo seu preço acessivel e exelente economia de cobustivel. ideal para dirigir na cidade ou na sua proxima viagem</p>
           <a className="font-Lexend" href="https://www.carwale.com/new/best-luxury-cars/" target="_blank">ver mais</a>
         </div>
 
